@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+.pannel1{
+    background-color: black;
+    height: 5rem;
+    width: 100vw;
+
+}
+@media(max-width:400px){
+    body{
+        background-image: url("mobile.jpg");
+        background-size:cover;
+
+    }
+.pannel1{
+    height: 3.5rem;
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 1rem white;
+  
+}
+#el1{
+    padding-left: 0.1rem;
+    padding-bottom: 0.1rem;
+    height: 98%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 2rem;
+
+    
+
+}
+#all{
+  
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+ i{
+    
+    padding: 1rem;
+   font-size: 1.5rem;
+   margin-left: 70%;
+}
+.pannel2{
+    
+    height: 50vh;
+    
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 1rem white;
+
+}
+.heading{
+    width: 100%;
+    height: 20%;
+  
+    display: flex;
+    background-color: black;
+    
+
+}
+.artpof{
+    width: 100%;
+    height: 80%;
+  border: 1px solid black;
+    display: flex;
+    background-image: url("33-Best-Programming-Quotes-To-Inspire-Developers.png");
+    background-size: cover;
+   
+}
+.article{
+    width: 65%;
+    height: 100%;
+   
+   
+}
+.heading h2{
+    height:100% ;
+    width:40% ;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact a{
+    height: 100%;
+    width: 20%;
+    color: #fff;
+      
+}
+a i{
+   margin-top: 0.3rem;
+    font-size:1rem;
+}
+.profile{
+    width: 35%;
+    height: 100%;
+    
+    background-image: url("student.webp");
+    background-size: cover;
+    padding-right: 4rem;
+    
+}
+
+.pannel3{
+    margin-top:0;
+    height: 10vmin;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 0.5rem white;
+    border-radius: 1rem;
+    
+}
+.pannel3 div{
+       color: #fff;
+       margin: 0.35rem 0 0.35rem 0;
+       font-weight: 600;
+       text-decoration: none;
+       background-color: black;
+       border-radius: 2rem;
+       padding: 0 0.3rem 0 0.3rem;
+       cursor: pointer;
+}
+.pannel3 div:active{
+    box-shadow: 0 0 1rem white;
+}
+
+
+.bottomimg{
+    border: 1px solid black;
+    height: 16rem;
+    width: 100%;
+    background-image: url("bottomimg.jpg");
+    background-size: cover;
+    box-shadow: 0 0 1rem black;
+
+}
+.bottomimg h2{
+    margin-top: 1.5rem;
+    text-decoration: overline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-shadow: 0 0 1rem black;
+}
+
+
+.footer{
+    width: 100%;
+    height:2rem ;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0.5rem #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.project{
+    width: 100%;
+    height: 17rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("bottomimg.jpg");
+    background-size: cover;
+
+}
+.probox{
+    width: 98%;
+    
+    height:5rem ;
+    display: flex;
+    
+}
+.box1{
+    height: 5rem;
+    width: 25%;
+   
+    margin-left: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem white;
+}
+.box2{
+    height: 5rem;
+    width: 72%;
+    
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#probox1{
+    background-image: url("Tic tac toe.jpg");
+    background-size: cover;
+
+}
+#probox3{
+    background-image: url("currency.jpg");
+    background-size: cover;
+}
+#probox5{
+    background-image: url("rock paper.jpg");
+    background-size: cover;
+}
+a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+}
