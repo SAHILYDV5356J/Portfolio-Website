@@ -12,9 +12,8 @@
 }
 @media(max-width:400px){
     body{
-        background-image: url("mobile.jpg");
+        background-image: url("mywebcontent.jpg");
         background-size:cover;
-        
 
     }
 .pannel1{
@@ -37,6 +36,7 @@
     align-items: center;
     color:#fff;
     font-size: 2rem;
+    margin-left: 1rem;
 
     
 
@@ -60,6 +60,7 @@
 .pannel2{
     
     height: 50vh;
+    width: 100%;
     
     display: flex;
     flex-direction: column;
@@ -69,18 +70,20 @@
 .heading{
     width: 100%;
     height: 20%;
+    
   
     display: flex;
     background-color: black;
     
 
 }
+
 .artpof{
     width: 100%;
     height: 80%;
-  border: 1px solid black;
+ 
     display: flex;
-    background-image: url("33-Best-Programming-Quotes-To-Inspire-Developers.png");
+    background-image: url("mywebcontent.jpg");
     background-size: cover;
    
 }
@@ -98,6 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0.5rem;
 }
 
 .contact{
@@ -125,20 +129,23 @@ a i{
     background-image: url("student.webp");
     background-size: cover;
     padding-right: 4rem;
+   
     
 }
 
 .pannel3{
-    margin-top:0;
-    height: 10vmin;
+  
+    height: 13vmin;
     width: 100%;
     
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0 0 0.5rem white;
-    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem #fff;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
     
 }
 .pannel3 div{
@@ -148,21 +155,26 @@ a i{
        text-decoration: none;
        background-color: black;
        border-radius: 2rem;
-       padding: 0 0.3rem 0 0.3rem;
+       padding:0.3rem;
        cursor: pointer;
+       box-shadow: 0 0 1rem #fff;
 }
 .pannel3 div:active{
-    box-shadow: 0 0 1rem white;
+    box-shadow: 0 0 2rem black;
 }
 
 
 .bottomimg{
+    margin-top:0.5rem;
     border: 1px solid black;
-    height: 16rem;
+    height: 24rem;
     width: 100%;
     background-image: url("bottomimg.jpg");
     background-size: cover;
     box-shadow: 0 0 1rem black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+   
 
 }
 .bottomimg h2{
@@ -185,20 +197,23 @@ a i{
     display:flex;
     justify-content: center;
     align-items: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 
 
 
 .project{
+    margin-top:1rem ;
     width: 100%;
     height: 17rem;
     
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: url("bottomimg.jpg");
-    background-size: cover;
+    
+   
 
 }
 .probox{
@@ -246,6 +261,46 @@ a{
 .hide{
     display: none;
 }
+
+.skill{
+    width: 100%;
+    height: 18rem;
+   
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+    
+    justify-content: center;
+    align-items: center;
+}
+.skill div{
+    width: 28%;
+    height: 6rem;
+   
+    
+}
+.skil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.skil img{
+    height: 90px;
+}
+#s4{
+    height: 100px;
+   
+}
+.hide1{
+    display: none;
+}
+
+
 
 
 
